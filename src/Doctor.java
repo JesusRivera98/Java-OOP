@@ -4,10 +4,10 @@ public class Doctor {
     String speciality;
 
     Doctor(){
-        System.out.println("Construyendo el objeto Doctor");
+        System.out.println("Constructing Doctor");
     }
     Doctor(String name){
-        System.out.println("El nombre del Doctor es: " + name);
+        System.out.println("The Doctor's name is: " + name);
         //this.name = name;
     }
 
