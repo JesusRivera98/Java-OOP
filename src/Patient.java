@@ -13,7 +13,6 @@ public class Patient {
     Patient(String name, String email){
         this.name = name;
         this.email = email;
-        this.weight = 56.4;
     }
 
     public String getName() {
@@ -45,7 +44,11 @@ public class Patient {
     }
 
     public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+        if (phoneNumber.length() > 8){
+            System.out.println("The phone number must be 8 digits maximum");
+        }else if (phoneNumber.length() == 8){
+            this.phoneNumber = phoneNumber;
+        }
     }
 
     public String getBirthday() {
@@ -56,16 +59,16 @@ public class Patient {
         this.birthday = birthday;
     }
 
-    public double getWeight() {
-        return weight;
+    public String getWeight() {
+        return weight + " Kg.";
     }
 
     public void setWeight(double weight) {
         this.weight = weight;
     }
 
-    public double getHeight() {
-        return height;
+    public String getHeight() {
+        return height + " Mts.";
     }
 
     public void setHeight(double height) {

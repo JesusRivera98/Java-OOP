@@ -16,6 +16,7 @@ public class Main {
         System.out.println();
         Patient patient = new Patient("Alejandra", "alejandra@mail.com");
 
+
         /*Patient patient2 = new Patient("Anahí", "anahi@mail.com");
 
         System.out.println(patient.getName());
@@ -29,10 +30,10 @@ public class Main {
         System.out.println(patient.getName());
         System.out.println(patient2.getName());*/
 
-        /*patient.setWeight(54.6);
+        patient.setWeight(54.6);
         System.out.println(patient.getName());
 
         patient.setPhoneNumber("12345678");
-        System.out.println(patient.getPhoneNumber());*/
+        System.out.println(patient.getPhoneNumber());
     }
 }
