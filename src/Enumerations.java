@@ -1,28 +1,23 @@
 public class Enumerations {
     public enum Day {
-        SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
-        THURSDAY, FRIDAY, SATURDAY
+        MONDAY("Lunes");
+        TUESDAY("Jueves");
+        FRIDAY("Viernes");
+        SATURDAY("Sábado");
+        SUNDAY("Domingo");
+
+        private String spanish;
+        private Day(String s) {
+            spanish = s;
+        }
+
+        private String getSpanish() {
+            return spanish;
+        }
     }
 
     public static void main(String[] args) {
-        Day day;
-        switch (day) {
-            case MONDAY:
-                System.out.println("Mondays are good.");
-                break;
-            case FRIDAY:
-                System.out.println("Fridays are nice");
-                break;
-            case SATURDAY: case: SUNDAY:
-            System.out.println("Weekends are the best");
-                break;
-            default:
-                System.out.println("Midweek are so-so");
-                break;
-
-        }
-        Day.MONDAY;
-        Day.FRIDAY;
-        Day.SATURDAY;
+        System.out.println(Day.MONDAY);
+        System.out.println(Day.MONDAY.getSpanish());
     }
 }
