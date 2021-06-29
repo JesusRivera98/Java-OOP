@@ -7,6 +7,7 @@ public class Patient extends User {
 
     Patient(String name, String email){
         super(name, email);
+        //More instructions
     }
 
     public String getBirthday() {
@@ -41,5 +42,12 @@ public class Patient extends User {
         this.blood = blood;
     }
 
-
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nbirthday: " + birthday +
+                "\nweight: " + weight +
+                "\nheight: " + height +
+                "\nblood: " + blood;
+    }
 }

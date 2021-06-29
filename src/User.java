@@ -49,4 +49,12 @@ public class User {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    @Override
+    public String toString() {
+        return "User: " + name +
+                "\nEmail: " + email +
+                "\nAddress: " + address +
+                "\nPhone: " + phoneNumber;
+    }
 }

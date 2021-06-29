@@ -1,5 +1,5 @@
 public class Enumerations {
-    public enum Day {
+    /*public enum Day {
         MONDAY("Lunes");
         TUESDAY("Jueves");
         FRIDAY("Viernes");
@@ -19,5 +19,5 @@ public class Enumerations {
     public static void main(String[] args) {
         System.out.println(Day.MONDAY);
         System.out.println(Day.MONDAY.getSpanish());
-    }
+    }*/
 }
