@@ -5,12 +5,12 @@ public class Doctor {
 
     Doctor(){
         System.out.println("Constructing Doctor");
-        id++;
     }
-    Doctor(String name){
-        id++;
+    Doctor(String name, String speciality){
         System.out.println("The Doctor's name is: " + name);
-        //this.name = name;
+        id++;
+        this.name = name;
+        this.speciality = speciality;
     }
 
     //Behaviors
