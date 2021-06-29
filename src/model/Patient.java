@@ -1,3 +1,5 @@
+package model;
+
 public class Patient extends User {
     //Attributes
     private String birthday;
