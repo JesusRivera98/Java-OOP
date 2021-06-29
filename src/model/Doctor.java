@@ -12,7 +12,6 @@ public class Doctor extends User{
 
     public Doctor(String name, String email, String speciality){
         super(name, email);
-        System.out.println("The model.Doctor's name is: " + name);
         this.speciality = speciality;
     }
 
@@ -52,7 +51,7 @@ public class Doctor extends User{
         private String time;
         SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 
-        public AvailableAppointment(String date, String time) throws ParseException {
+        public AvailableAppointment(String date, String time){
             try {
                 this.date = format.parse(date);
             }catch (ParseException e){
