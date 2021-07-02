@@ -35,7 +35,7 @@ This project was created using:
 To work in this project, install it locally:
 * [Eclipse](https://www.eclipse.org/downloads/)
 * [OpenJDK 8](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)
-* [OpenJDK 9](https://adoptopenjdk.net/?variant=openjdk9&jvmVariant=hotspot)
+* [OpenJDK 9](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
 * [Java](https://www.java.com/es/download/manual.jsp) 9 or higher
 
 
